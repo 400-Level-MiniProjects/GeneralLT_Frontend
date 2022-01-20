@@ -1,0 +1,193 @@
+/* do not touch this part */
+.header,
+header{
+    display: flex;
+}
+.header p{
+    font-size: 18px;
+    text-align: center;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    padding:10px;
+}
+.navbar ul li a,
+.navbar ul 
+{
+    text-decoration: none;
+    list-style-type: none;
+    color:black;
+}
+.adp p,
+.signup p,
+.login p,
+.rcp p,
+.sdp p,
+.edp p,
+.ftp p,
+.logout p,
+.profile p,
+.stp p{
+    font-size: 40px;
+    text-align: center;
+}
+
+.image{
+    width: 60px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+h1{
+    text-align: center;
+    font-size: 25px;
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+    
+}
+.center{
+    width: 100%;
+    height: 100%;
+    border: solid blue;
+    border-radius: 15px;
+    background-color: rgb(214, 208, 208);
+    margin-top: 80px;
+}
+table{
+    margin-right: auto;
+    margin-left: auto;
+    border-collapse: collapse;
+    height: 70%;
+
+}
+.up{
+    background-color: rgb(214, 208, 208);
+    width: 80%;
+    border: grey solid 5px;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+table th ,table tr{
+     padding: 20px;
+    
+     }
+
+.A{
+    background-color: rgb(227, 235, 245);
+
+}
+th{
+    font-size: 25px;
+}
+.B{
+    background-color: rgb(227, 235, 245);
+
+}
+.C{
+    background-color: rgb(227, 235, 245);
+
+}
+.D{
+    background-color: rgb(227, 235, 245);
+
+}
+.E{
+    background-color: rgb(227, 235, 245);
+
+}
+.F{
+    background-color: rgb(227, 235, 245);
+
+}
+main{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+#stime{
+    min-height: 100vh;
+    background: white; 
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+#stime .left{
+    display: flex;
+    flex-direction: column;
+    /* width: 25%; */
+    border-color: white;
+    /* padding: 10px; */
+    min-height: 100vh;
+    width: 20%;
+    padding-left: 40px;
+}
+#stime .left .top{
+    display: flex;
+    flex-direction: row;
+    padding-left: 0px;
+    align-items: center;
+    
+}
+#stime .left .top img{
+    height: 60px;
+}
+#stime .left .top h1{
+    font-family: 'Mulish', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+    color: #333333;
+    padding-left: 15px;
+}
+#stime .left .bottom h3{
+    color: #587EF0;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 7px solid blue;
+    margin: 60px 0;
+}
+#stime .leftb.bottom .bold{
+    font-weight: 550;
+    color: blue;
+    border-left: 7px solid blue;
+    padding-left: 10px;
+}
+.top{
+    margin-right: 200px;
+    margin-left: 40px;
+    margin-top: 0px;
+}
+#stime .course{
+    width: 80%;
+    margin-top: 100px;
+}
+.pic{
+    width: 30px;
+    height: 50px;
+    border: red solid;
+    border-radius: 30px;
+} 
+.person{
+    display: flex;
+    /* width: 30px; */
+    text-align: right;
+    margin-left: 80%;
+    padding-left: 50px;
+}
+.dash{
+    background-color: rgb(214, 208, 208);
+    border-left: 5px solid blue;
+    width: 200px;
+    height: 50px;
+}
+.font{
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
