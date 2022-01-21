@@ -33,3 +33,123 @@ header{
     font-size: 40px;
     text-align: center;
 }
+
+/* Navbar.html */
+#full{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+}
+#full .left{
+    background-color: white;
+    width: 25%;
+    padding: 20px;
+}
+#full .left .top{
+    display: flex;
+    align-items: center;
+    margin-bottom: 130px;
+}
+#full .left .top img{
+    height: 50px;
+}
+#full .left .top h1{
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 0 10px;
+    /* font-family: 'Mulish', ; */
+}
+#full .left .bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#full .left .bottom h3{
+    text-transform: capitalize;
+    color: #5B7EF0;
+    /* font-family: Mulish; */
+    font-weight: 500;
+    font-size: 27px;
+    margin: 20px 0;
+    height: 50px;
+    padding-left: 20px;
+}
+#full .left .bottom .major{
+    color: #3B63E4;
+    background: #5370ce27;
+    border-left: 5px solid #3859c7;
+    display: flex;
+    font-weight: 500;
+    align-items: center;
+}
+#full .left .logout{
+    margin-top: 200px;
+}
+#full .left .logout h4{
+    text-transform: capitalize;
+    color: #5B7EF0;
+
+    /* font-family: Mulish; */
+    font-weight: 500;
+    font-size: 27px;
+    margin: 20px 0;
+    height: 50px;
+    padding-left: 20px;
+}
+
+
+#full .right{
+    width: 75%;
+    background: #e5e5e5a9;
+}
+#full .right .top{
+    display: flex;
+}
+#full .right .top h2{
+    color: #454545;
+    font-family: 'Lato', sans-serif;
+    width: 400px;
+    padding: 10px ;
+}   
+#full .right .top .see, .seee{
+    height: 30px;
+    margin: 20px 10px;
+}
+#full .right .top .line{
+    height: 40px;
+    margin: 12px 0;
+}
+#full .right .top h3{
+    margin: 20px;
+}
+.hed{
+    height: 50px;
+    margin: 5px 0;
+}
+
+/* for the logout page section  */
+
+.all h1{
+    /* margin-left: 50%;
+    margin-right: 50%;
+    width: 100%; */
+    text-align: center;
+}
+.all img{
+    margin-left: 20%;
+    margin-right: 25%;
+    width: 70%;
+    height: 90%;
+}
+
+.all button{
+    margin-left: 50%;
+    margin-right: 100%;
+    color: blue;
+    border: none;
+    font-size: 25px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
