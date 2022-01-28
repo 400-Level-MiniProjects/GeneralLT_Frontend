@@ -1,0 +1,103 @@
+
+
+.layer1{
+    width: 100%;
+    height: 80%;
+    position: relative;
+    background-color: #E5E5E5;
+    /* border: 3px solid black; */
+}
+.sidebar{
+    width: 20%;
+    height: 100%;
+    background: white;
+    position: absolute;
+    /* border: 2px solid black; */
+}
+
+.topbar{
+    width: 79.6%;
+    height: 13%;
+    float: right;
+    /* display: flex; */
+    /* background-color: yellow; */
+    /* border: 2px solid black; */
+}
+
+
+
+.topbar #icons{
+    display: flex;
+    padding-left: 10px ;
+    float: right;
+    margin-top: 15px;
+}
+.topbar .flex{
+    padding-left: 30px;
+    float: right;
+}
+
+li a {
+color: black;
+font-size: 13px;
+text-decoration: none;
+
+
+padding: 20px;
+/* font-size: 15px; */
+}
+.clear{
+clear: both;
+}
+nav{
+width: 100%;
+height: auto;
+
+
+}
+
+nav h1{
+float: left;
+font-size: 13px;
+}
+nav ul{
+display: flex;
+float: right;
+list-style: none;
+}
+nav li{
+float: left;
+
+}
+
+
+#layer{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+}
+#layer .sidebar{
+    width: 30%;
+    background-color: white;
+
+}
+#layer .sidebar .lts{
+    display: flex;
+    align-items: center;
+}
+#layer .sidebar .lts img{
+    height: 50px;
+}
+#layer .sidebar .lts h2{
+    font-family: 'Lato', sans-serif;
+    color: rgb(51, 51, 51);
+}
+
+#layer .topbar {
+    width: 70%;
+}
+#layer .topbar .navv h1{
+    font-size: 20px;
+    color: black;
+    display: block;
+}
