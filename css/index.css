@@ -50,7 +50,9 @@ body{
     min-height: 100vh;
     background: #E5E5E5;
     display: flex;
-    width: 100%;
+    width:85%;
+    margin: auto;
+    box-shadow: 3px -2px 4px gray;
 
 }
 #stime .left{
@@ -149,7 +151,7 @@ body{
 }
 #stime .right .top .first .abg, #factime .right .top .up .abeg {
     height: 30px;
-    margin: 0 10px;
+    /* margin: 0 10px; */
 }
 #stime .right .top .first .line{
     height: 40px;
@@ -168,30 +170,39 @@ body{
     margin-top: 50px;
     width: 100%;
     border-collapse: collapse;
+    /* background-color: #203B93; */
+    
     
 }
 table, th, td {
     border: 1px solid #B8B8B8;
     border-collapse: collapse;
+    text-align: center;
 }
 
 #stime .right .table table tr{
     border-collapse: collapse;
+    
 }
-#stime .right .table table tr  th{
+.increase{
+    height: 150px;
+}
+#stime .right .table table thead tr th{
     font-family: 'Lato', sans-serif;
     font-weight: 500;
-    font-size: 15px;
-    padding: 0;
+    /* font-size: 15px; */
+    /* padding: 0; */
     border-collapse: collapse;
     background: white;
+    /* height: 3000px; */
 }
 #stime .right .table table tr td{
     font-family: 'Lato', sans-serif;
-    padding: 30px 30px;
-    font-size: 18px;
+    /* padding: 30px 30px; */
+    font-size: 15px;
     font-weight: 550;
     /* width: 100%; */
+    width: 100px;
     line-height: 25px;
     border-collapse: collapse;
 }
